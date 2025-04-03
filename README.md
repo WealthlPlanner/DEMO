@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -47,30 +46,34 @@
 
         h1, h2 {
             color: #e0e0e0;
+            animation: fadeInUp 4s ease-in-out;
         }
 
         p {
             color: #dcdcdc;
+            animation: fadeInUp 4s ease-in-out;
         }
 
-        .contact-info, .section {
-            background: #004785;
-            padding: 15px;
-            border-radius: 5px;
+        .contact-info, .meeting-form, .site-map, .section {
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .section {
             margin-bottom: 20px;
-        }
-
-        .contact-info a {
-            color: #ffffff;
-            text-decoration: none;
-            font-weight: bold;
+            padding: 15px;
+            background: #003b5c;
+            border-radius: 5px;
+            animation: fadeInUp 4s ease-in-out;
         }
 
         .services-container {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: center;
             gap: 20px;
+            animation: fadeInUp 4s ease-in-out;
         }
 
         .service-item {
@@ -79,7 +82,6 @@
             padding: 20px;
             border-radius: 5px;
             color: #ffffff;
-            box-sizing: border-box;
             min-width: 280px;
         }
 
@@ -95,42 +97,6 @@
         .button:hover {
             background-color: #005f87;
         }
-
-        .meeting-form {
-            background: #004785;
-            padding: 15px;
-            border-radius: 5px;
-        }
-
-        input, textarea {
-            width: 100%;
-            padding: 8px;
-            margin: 5px 0;
-            border: 1px solid #004785;
-            border-radius: 4px;
-            background: #003e58;
-            color: #f0f0f0;
-        }
-
-        button {
-            background: #006b97;
-            color: white;
-            padding: 10px;
-            border: none;
-            cursor: pointer;
-            width: 100%;
-            border-radius: 4px;
-        }
-
-        button:hover {
-            background: #005f87;
-        }
-
-        #financial-advice {
-            text-align: center;
-            max-width: 600px;
-            margin: 0 auto;
-        }
     </style>
 </head>
 <body>
@@ -138,7 +104,6 @@
         <h1>Preggie Govender</h1>
         <h2>Chief Inspiration Officer</h2>
     </div>
-
     <div class="right-side">
         <div class="container">
             <div class="contact-info" id="contact">
@@ -157,14 +122,17 @@
                 </ul>
             </div>
 
-            <div class="linkedin">
-                <h2>Connect with Me</h2>
-                <p><a href="https://www.linkedin.com/in/preggie-govender-mr-g-30a97040/" target="_blank" class="button">Connect on LinkedIn</a></p>
+            <div class="site-map">
+                <h2>Site Map</h2>
+                <a href="#home">Home</a>
+                <a href="#contact">Contact</a>
+                <a href="#services">What We Do</a>
+                <a href="#about">What I Do</a>
+                <a href="#book-meeting">Book a Meeting</a>
             </div>
 
             <footer>
                 <p>&copy; 2025 Preggie Govender. All rights reserved.</p>
-                <p>Disclaimer: This website is for informational purposes only and does not constitute professional financial or real estate advice.</p>
             </footer>
         </div>
     </div>
