@@ -14,7 +14,7 @@
         <input type="tel" id="contact" name="Contact" autocomplete="tel" required>
 
         <label for="message">Additional Details (Optional):</label>
-        <textarea id="message" name="Message" rows="4" autocomplete="off"></textarea>
+        <textarea id="message" name="Message" rows="4" autocomplete="on"></textarea>
 
         <button type="submit">Send Meeting Request</button>
     </form>
