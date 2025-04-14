@@ -327,7 +327,7 @@
                 <a href="#home">Home</a>
                 <a href="#contact">Contact</a>
                 <a href="#services">What We Do</a>
-                <a href="#about">What I Do</a>
+                <a href="#what-i-do">What I Do</a>
                 <a href="#book-meeting">Book a Meeting</a>
             </div>
 
